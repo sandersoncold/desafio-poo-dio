@@ -7,7 +7,7 @@ public class Dev {
     private Set<Conteudo> conteudosInscritos = new LinkedHashSet<>();
     private Set<Conteudo> conteudosConcluidos = new LinkedHashSet<>();
 
-    public void inscreverBootcamp(Bootcamp bootcamp){
+    public void inscreverBootcamp(Bootcamp bootcamp) {
         this.conteudosInscritos.addAll(bootcamp.getConteudos());
         bootcamp.getDevsInscritos().add(this);
     }
@@ -31,10 +31,6 @@ public class Dev {
         }
         return soma;
 
-        /*return this.conteudosConcluidos
-                .stream()
-                .mapToDouble(Conteudo::calcularXp)
-                .sum();*/
     }
 
 
