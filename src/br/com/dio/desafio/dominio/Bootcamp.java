@@ -15,11 +15,11 @@ public class Bootcamp {
     private Set<Conteudo> conteudos = new LinkedHashSet<>();
 
 
-    public String getNome() {
+    public String getNome()  {
         return nome;
     }
 
-    public void setNome(String nome) {
+    public void setNome(String nome ) {
         this.nome = nome;
     }
 
