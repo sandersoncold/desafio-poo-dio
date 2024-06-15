@@ -47,16 +47,16 @@ public class Main {
         System.out.println("-------");
 
         Dev devJoao = new Dev();
-        devJoao.setNome("Joao");
+        devJoao.setNome("Sandro");
         devJoao.inscreverBootcamp(bootcamp);
-        System.out.println("Conteúdos Inscritos João:" + devJoao.getConteudosInscritos());
+        System.out.println("Conteúdos Inscritos Sandro:" + devJoao.getConteudosInscritos());
         devJoao.progredir();
         devJoao.progredir();
         devJoao.progredir();
         System.out.println("-");
-        System.out.println("Conteúdos Inscritos João:" + devJoao.getConteudosInscritos());
-        System.out.println("Conteúdos Concluidos João:" + devJoao.getConteudosConcluidos());
-        System.out.println("XP:" + devJoao.calcularTotalXp());
+        System.out.println("Conteúdos Inscritos João:" + devSandro.getConteudosInscritos());
+        System.out.println("Conteúdos Concluidos João:" + devSandro.getConteudosConcluidos());
+        System.out.println("XP:" + devSandro.calcularTotalXp());
 
     }
 
